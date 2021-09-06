@@ -15,11 +15,7 @@
 
 ```
 DB_ENGINE=postgresql_psycopg2
-DB_HOST=example.com
-DB_PORT=5432
-DB_NAME=dbname
-DB_USER=username
-DB_PASSWORD=secret_password
+DB_URL=postgres://USER:PASSWORD@HOST:PORT/NAME
 SECRET_KEY=secret_key
 DEBUG=true
 ```
