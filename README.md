@@ -14,13 +14,15 @@
 6. Создать файл `.env` с переменными окружения. Пример файла:
 
 ```
-DB_ENGINE=postgresql_psycopg2
 DB_URL=postgres://USER:PASSWORD@HOST:PORT/NAME
 SECRET_KEY=secret_key
 DEBUG=true
+ALLOWED_HOSTS=127.0.0.1,localhost
 ```
 
 После этого можно запустить приложение командой `python manage.py runserver`.
+
+Примеры настроек базы данных можно посмотреть в официальной документации [dj-database-url](https://github.com/jacobian/dj-database-url)
 
 ## Цель проекта
 Проект написан в образовательных целях на онлайн-курсе 
