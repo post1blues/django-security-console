@@ -14,11 +14,12 @@
 6. Создать файл `.env` с переменными окружения. Пример файла:
 
 ```
-HOST=example.com
-PORT=5432
-NAME=dbname
-USER=username
-PASSWORD=secret_password
+DB_ENGINE=postgresql_psycopg2
+DB_HOST=example.com
+DB_PORT=5432
+DB_NAME=dbname
+DB_USER=username
+DB_PASSWORD=secret_password
 SECRET_KEY=secret_key
 DEBUG=true
 ```
